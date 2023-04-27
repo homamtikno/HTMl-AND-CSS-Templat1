@@ -97,6 +97,7 @@ nav .spaan .sp2{
 } */
 nav ul{
     display: none;
+    
     background-color:#f6f6f697;
     width: 170px;
     /* height: 100px; */
@@ -105,6 +106,7 @@ nav ul{
     top: 8%;
     padding: 10px;
     list-style: none;
+    z-index: 1;
 }
 nav ul::before{
     content: "";
